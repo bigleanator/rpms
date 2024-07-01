@@ -1,0 +1,10 @@
+--- net.mancubus.SLADE.desktop.old	2024-07-01 16:27:33.598219357 +0800
++++ net.mancubus.SLADE.desktop	2024-07-01 16:26:46.178091785 +0800
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Name=SLADE
+-Exec=slade %F
++Exec=env GDK_BACKEND=x11 slade %F
+ Type=Application
+ Categories=Development
+ Comment=It's a Doom editor
