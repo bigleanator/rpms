@@ -1,0 +1,10 @@
+diff --git a/CMakeLists.txt.orig b/CMakeLists.txt
+index 2e29bae..06774f5 100644
+--- a/CMakeLists.txt.orig
++++ b/CMakeLists.txt
+@@ -221,3 +221,5 @@ set( CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} ${DEB_C_FLAGS} -D_DEBUG" )
+ add_executable( zdbsp ${SOURCES} ${HEADERS} )
+ target_link_libraries( zdbsp ${ZDBSP_LIBS} ${PROF_LIB} )
+ include_directories( "${ZLIB_INCLUDE_DIR}" )
++
++install(TARGETS zdbsp DESTINATION bin)
