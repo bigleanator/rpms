@@ -1,11 +1,11 @@
 Name:           crispy-doom
-Version:        6.0
+Version:        7.0
 Release:        %autorelease
 Summary:        A limit removing fork of chocolate doom 
 
 License:        GPLv2
 URL:            https://github.com/fabiangreffrath/crispy-doom
-Source0:        https://github.com/fabiangreffrath/crispy-doom/archive/refs/tags/crispy-doom-6.0.tar.gz
+Source0:        https://github.com/fabiangreffrath/crispy-doom/archive/refs/tags/crispy-doom-7.0.tar.gz
 
 BuildRequires:  autoconf
 BuildRequires:  automake
@@ -127,5 +127,7 @@ autoreconf -fiv
 
 
 %changelog
+* Tue Nov 26 2024 bigleanator <98368716+bigleanator@users.noreply.github.com>
+- update to 7.0
 * Mon Jul 01 2024 bigleanator <98368716+bigleanator@users.noreply.github.com>
 - Initial version
