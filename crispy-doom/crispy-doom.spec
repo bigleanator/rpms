@@ -94,10 +94,6 @@ autoreconf -fiv
 %{_mandir}/man5/crispy-heretic.cfg.5.gz
 %{_mandir}/man5/crispy-hexen.cfg.5.gz
 %{_mandir}/man5/crispy-strife.cfg.5.gz
-%{_mandir}/man5/default.cfg.5.gz
-%{_mandir}/man5/heretic.cfg.5.gz
-%{_mandir}/man5/hexen.cfg.5.gz
-%{_mandir}/man5/strife.cfg.5.gz
 %{_mandir}/man6/crispy-doom-setup.6.gz
 %{_mandir}/man6/crispy-doom.6.gz
 %{_mandir}/man6/crispy-heretic-setup.6.gz
@@ -110,7 +106,6 @@ autoreconf -fiv
 
 %{_docdir}/crispy-doom/CMDLINE.doom
 %{_docdir}/crispy-doom/COPYING.md
-%{_docdir}/crispy-doom/ChangeLog
 %{_docdir}/crispy-doom/INSTALL.doom
 %{_docdir}/crispy-doom/NEWS.md
 %{_docdir}/crispy-doom/NOT-BUGS.md
